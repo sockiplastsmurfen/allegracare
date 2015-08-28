@@ -88,17 +88,23 @@ h1, h2, h3, h4, h5, h6 {
 	.navbar-brand {
 		color: @brand-primary;
     color: @brand-logo;
+    margin-top: -5px;
+
 		.script-font;
         &:hover,
         &:focus,
         &:active,
         &.active {
+          color: @brand-logo;
         	//color: darken(@brand-primary, 10%);
-          color: darken(@brand-logo, 50%);
+          //color: darken(@brand-logo, 50%);
         }
+
     img {
-      height: 150%;
+      height: 30px;
+      width: auto;
       display: inline-block;
+      vertical-align: text-bottom;
       margin-right: 5px;
     }
 	}

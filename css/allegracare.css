@@ -149,17 +149,20 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .navbar-brand {
   color: #5cb85c;
   color: #ffffff;
+  margin-top: -5px;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus,
 .navbar-default .navbar-brand:active,
 .navbar-default .navbar-brand.active {
-  color: #808080;
+  color: #ffffff;
 }
 .navbar-default .navbar-brand img {
-  height: 150%;
+  height: 30px;
+  width: auto;
   display: inline-block;
+  vertical-align: text-bottom;
   margin-right: 5px;
 }
 .navbar-default .navbar-collapse {
