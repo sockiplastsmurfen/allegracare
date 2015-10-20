@@ -303,16 +303,10 @@ section h3.section-subheading {
 }
 @media (min-width: 768px) {
   section {
-    padding: 0 0 150px 0;
+    padding: 150px 0;
   }
-  section#about-us,
-  section#contact {
-    padding-top: 150px;
-  }
-}
-@media (max-width: 990px) {
-  #about-us .col-md-4 {
-    margin-top: 50px;
+  section#about-us {
+    padding-bottom: 0;
   }
 }
 .service-heading {
