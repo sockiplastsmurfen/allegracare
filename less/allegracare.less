@@ -17,8 +17,9 @@ body {
 }
 
 p {
-	font-size: 14px;
-	line-height: 1.75;
+	font-size: 18px;
+	line-height: 1.6;
+    //text-align: center;
 }
 
 p.large {
@@ -47,6 +48,10 @@ a.active {
 h1, h2, h3, h4, h5, h6 {
 	.heading-font;
 	font-weight: 700;
+}
+
+.h4, h4 {
+    font-size: 22px;
 }
 
 .img-centered {
@@ -242,12 +247,17 @@ section {
 		margin-bottom: 15px;
     }
     h3.section-subheading {
-		font-size: 16px;
+		font-size: 19px;
+        line-height: 1.6;
 		.serif-font;
 		text-transform: none;
 		font-style: italic;
 		font-weight: 400;
 		margin-bottom: 75px;
+
+        // &.no-bottom-margin {
+        //   margin-bottom: 0;
+        // }
     }
 }
 
@@ -738,7 +748,7 @@ aside.clients {
 
 section#contact {
 	background-color: @gray-darkest;
-	background-image: url('../img/map-image.png');
+	//background-image: url('../img/map-image.png');
 	background-position: center;
 	background-repeat: no-repeat;
 	.section-heading {
@@ -784,6 +794,17 @@ section#contact {
 	.text-danger {
 		color: @brand-danger;
 	}
+}
+
+h3.contact {
+    text-transform: none;
+
+    a:hover {
+        text-decoration: none;
+    }
+    .fax {
+        color: @brand-primary;
+    }
 }
 
 // Footer

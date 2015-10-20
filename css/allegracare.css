@@ -9,8 +9,8 @@ body {
   color: #5cb85c;
 }
 p {
-  font-size: 14px;
-  line-height: 1.75;
+  font-size: 18px;
+  line-height: 1.6;
 }
 p.large {
   font-size: 16px;
@@ -40,6 +40,10 @@ h6 {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
+}
+.h4,
+h4 {
+  font-size: 22px;
 }
 .img-centered {
   margin: 0 auto;
@@ -289,7 +293,8 @@ section h2.section-heading {
   margin-bottom: 15px;
 }
 section h3.section-subheading {
-  font-size: 16px;
+  font-size: 19px;
+  line-height: 1.6;
   font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: none;
   font-style: italic;
@@ -670,7 +675,7 @@ section h3.section-subheading {
   ul.timeline2 > li > .timeline-panel {
     width: calc(100% - 90px);
     width: -moz-calc(100% - 90px);
-    width: -webkit-calc(100% - 90px);
+    width: "-webkit-calc(100% - 90px)";
   }
   ul.timeline2 > li > .timeline-badge {
     left: 15px;
@@ -714,7 +719,6 @@ aside.clients img {
 }
 section#contact {
   background-color: #222222;
-  background-image: url('../img/map-image.png');
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -766,6 +770,15 @@ section#contact :-ms-input-placeholder {
 }
 section#contact .text-danger {
   color: #e74c3c;
+}
+h3.contact {
+  text-transform: none;
+}
+h3.contact a:hover {
+  text-decoration: none;
+}
+h3.contact .fax {
+  color: #5cb85c;
 }
 footer {
   padding: 25px 0;
