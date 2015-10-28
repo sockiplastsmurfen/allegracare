@@ -162,11 +162,11 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .navbar-brand.active {
   color: #ffffff;
 }
-.navbar-default .navbar-brand img {
+.navbar-default .navbar-brand > img {
   height: 30px;
   width: auto;
   display: inline-block;
-  vertical-align: text-bottom;
+  vertical-align: bottom;
   margin-right: 5px;
 }
 .navbar-default .navbar-collapse {
