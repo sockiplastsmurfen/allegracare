@@ -720,11 +720,6 @@ section h3.section-subheading {
 aside.clients img {
   margin: 50px auto;
 }
-@media (min-width: 768px) {
-  section#apply {
-    padding: 0 0 150px 0;
-  }
-}
 section#contact {
   background-color: #222222;
   background-position: center;
